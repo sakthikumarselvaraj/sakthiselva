@@ -44,7 +44,7 @@
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
-  .about{
+  #about{
     height: 400px;
     width: 1366px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://www.ccu.edu/_files/images/cags/programs/computer-information-technology-icons.jpg');
