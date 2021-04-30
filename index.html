@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <script>
+      window.onscroll = function() {myFunction()};
+      
+      var navbar = document.getElementById("navbar");
+      var sticky = navbar.offsetTop;
+      
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+    </script>
+      
+    <title>Sakthikumar Selvaraj</title>
+  </head>
+  <body>
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+    <nav class="navbar navbar-dark bg-dark fixed-top" style="width: 1366px;" id="navbar">
+        <span class="navbar-brand mb-0 h1">Sakthikumar Selvaraj</span>
+        <div class="nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#footer">Contact</a>
+            
+        </div>
+    </nav>
+    <section class="home" id="home">
+        <div class="hero-image">
+            <div class="hero-text">
+                <h3>Hi Everyone!</h3>
+                <p>Welcome to my space</p>
+                <a class="btn btn-primary" href="#about" role="button" id="learnmore">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <div class="jumbotron jumbotron-fluid" id="about">
+        <div class="container">
+          <h1 class="display-4" style="color: white;"> About </h1>
+          <p class="lead" style="color: white;">I am Sakthikumar from kumbakonam. I am a freelance developer. I'm studied bachelor's in computer science and engineering.  
+            I am a technology enthusiast, who good with computer as well as people. Also i'm good with web, UI/UX, Programming skills.</p>
+        </div>
+    </div>
+    <section class="service" id="services">
+        <h2 style="text-align: center;">Our Services</h2>
+        <div class="row">
+          <div class="card-deck">
+            <div class="card mb-3"  id="servicecontainer" style="width: 600px;">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img src="./images/ClipartKey_2465899.png" alt="..." id="img">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Web Development</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere >> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3"  id="servicecontainer" style="width: 600px;">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img src="./images/kisspng-android-software-development-computer-icons-vector-si-glyph-android-svg-png-icon-free-download-2618-5b677b41425788.2211314715335084172718.png" alt="..." id="img">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Android Development</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere >> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class="footer" id="footer">
+      <div class="sociallinks">
+        <a href="https://www.linkedin.com/in/sakthikumar-selvaraj-b260b31a1/">
+          <img src="./images/icons/linkedin.svg" alt="" id="iconfb">
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=100009560629508">
+          <img src="./images/icons/facebook.svg" alt="" id="iconfb">
+        </a>
+        <a href="https://twitter.com/SakthiSelva16">
+          <img src="./images/icons/twitter.svg" alt="" id="iconfb">
+        </a>
+        <a href="https://github.com/sakthikumarselvaraj">
+          <img src="./images/icons/github.svg" alt="" id="iconfb">
+        </a>
+        <a href="https://www.instagram.com/sakthikumarselvaraj/">
+          <img src="./images/icons/instagram.svg" alt="" id="iconfb">
+        </a>
+      </div>
+      <div class="contact">
+        <ul class="list-unstyled">
+          <li>
+            <img src="./images/icons/gmail-logo.svg" alt="" id="iconfb"> sakthikumarselvaraj@gmail.com
+          </li>
+          <li>
+            <img src="./images/icons/phone-call.svg" alt="" id="iconfb"> +91 9894963408
+          </li>
+        </ul>
+      </div>
+    </section>
+    <div class="footer-copyright text-center py-3">© 2020 Copyright: Reserved
+    </div>
+    
+  </body>
+</html>
